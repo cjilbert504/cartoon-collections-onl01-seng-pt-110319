@@ -13,5 +13,5 @@ end
 
 def find_the_cheese(array)# code an argument here
   array.find{|i| i.is_a?(String)}# the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  #cheese_types = ["cheddar", "gouda", "camembert"]
 end
