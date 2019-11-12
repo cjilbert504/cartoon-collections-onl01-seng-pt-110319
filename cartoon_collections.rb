@@ -3,8 +3,8 @@ def roll_call_dwarves(array)# code an argument here
   puts "#{index + 1}. #{item}"}
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  array.collect {|element| element.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
