@@ -12,6 +12,6 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)# code an argument here
-  cheese_types.detect {|i| i.is_a?(String)}# the array below is here to help
+  array.detect {|i| i.is_a?(String)}# the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
